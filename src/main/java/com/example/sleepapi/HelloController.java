@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Server is running!";
+        return "Hello from Render!";
     }
 }
